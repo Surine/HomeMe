@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">柠檬智能</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_giveup">放弃添加</string>
+    <string name="dialog_input_name">请输入名称</string>
+    <string name="the_tv">的电视</string>
+    <string name="the_cn">的空调</string>
+    <string name="dialog_input_nothing">好像啥都没写！</string>
+    <string name="_step">上一步</string>
+    <string name="delete_succes">删除成功</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="delete_success">删除成功</string>
+</resources>

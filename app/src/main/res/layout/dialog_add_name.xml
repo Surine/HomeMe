@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="我是"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:id="@+id/input_name"
+            android:maxLines="1"
+            android:maxLength="8"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="的电视"
+            android:id="@+id/end_string"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+    <com.donkingliang.labels.LabelsView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/labels"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:labelBackground="@drawable/bg_label"
+        app:labelTextColor="@color/cardview_dark_background"
+        app:labelTextSize="14sp"
+        app:labelTextPaddingBottom="5dp"
+        app:labelTextPaddingLeft="10dp"
+        app:labelTextPaddingRight="10dp"
+        app:labelTextPaddingTop="5dp"
+        app:lineMargin="10dp"
+        app:wordMargin="10dp"
+        app:selectType="SINGLE"
+     />
+
+</LinearLayout>

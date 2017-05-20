@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tb_tv"
+        android:icon="@drawable/ic_action_tv"
+        android:title="电视"/>
+    <item
+        android:id="@+id/tb_cn"
+        android:icon="@drawable/ic_action_cn"
+        android:title="空调"/>
+    <item
+        android:id="@+id/tb_more"
+        android:icon="@drawable/ic_action_more"
+        android:title="更多期待"/>
+</menu>
